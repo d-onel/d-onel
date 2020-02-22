@@ -1,0 +1,182 @@
+body {
+ font-family: 'Open Sans Condensed', sans-serif;
+background: url(img/orig.gif)no-repeat;
+background-attachment: fixed;
+    background-size: 100%;
+    background-color: #326BB2;
+padding: 100px }
+
+    .header {
+        display: flex;
+        width: auto;
+        height: 150px;
+    
+}
+
+ul{
+    font-family: 'Press Start 2P';
+}
+
+.tiger{
+    margin-left: 107px;
+}
+
+.nav{
+    margin-left: 250px;
+}
+
+.daynu{
+    width: 150px;
+    margin: 0;
+}
+
+.dayn{
+    background: rgb(228,66,188);
+background: linear-gradient(90deg, rgba(228,66,188,1) 0%, rgba(118,121,9,0.5242471988795518) 47%, rgba(75,16,131,1) 100%);
+}
+    .container {
+    width: 900px;
+    min-height: 900px;
+    border: 4px solid rgb(0, 0, 0); 
+    margin: 0 auto;
+    background: rgb(254,254,255);
+    background: radial-gradient(circle, rgba(254,254,255,0.8239670868347339) 0%, rgba(230,229,229,0.9304096638655462) 100%);
+}
+
+
+.music{
+    font-family: 'Libre Barcode 39 Extended Text';
+    font-size: 150px;
+    text-align: center;
+    color: #E80189;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.audio{
+    margin: 0 auto;
+    width: 400px;
+    background-color: #381635;
+    margin-top: 30px;
+}
+
+.as{
+    font-family: 'Bungee Outline';
+    font-size: 50px;
+    color: #1EF7EA;
+    margin-top: 20px;
+
+}
+
+.az{
+    font-family: 'Monoton';
+    font-size: 50px;
+    color: #D80296;
+    margin-top: 20px;
+}
+
+.ax{
+    color: #381635;
+}
+
+.ghj{
+    display: flex;
+}
+
+.title-block {
+    display: flex;
+    width: 80%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background: url(img/glitch_2020-2-18_14-20-16.gif);
+    align="center" width="250" height="150";
+    background-color:black;
+    margin-left: 1%;
+    animation:0.2s leha infinite alternate;
+}
+@keyframes leha{
+0%{
+    transform:rotate(-15deg);
+
+ }
+ %{
+     transform: rotate(-10deg);
+ }
+%{
+      transform:rotate(-10deg);
+  }
+}
+
+
+.userpic {
+    display: flex;
+    height: 100%;
+    width: 20%;
+    border: 0.5px solid black;
+    background: url(img/ss11.gif)no-repeat center center / cover ;
+}
+.nav ul {
+background: rgb(211, 209, 209);
+display: flex;
+margin: 10px 0;
+}
+.nav li {
+    
+}
+.nav li a {
+    display: flex;
+    padding: 20px;
+    text-decoration: none;
+    color: rgb(16, 16, 71);
+    font-weight: bold;
+    border-right: 1px solid rgba(92, 92, 141, 0.103);
+    transition: background .3s ease;
+}
+
+.nav li a:hover {
+background: rgb(187, 185, 185);
+
+}
+
+.container-wrapper {
+    display: flex;
+}
+h1 {
+    margin-bottom: 19px;
+}
+h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-style: bold;
+    margin: center;
+}
+p { 
+    padding: 5px;
+
+}
+
+.content{
+    padding: 10%;
+    
+}
+.audio{
+    padding: 5%;
+}
+
+.sidebar li a:hover{background: rgb(187, 185, 185);
+    transition: background .3s ease;
+
+}
+
+
+.sidebar li a {
+    background: url(img/ua.jpg) center center / cover;
+    padding: 20px;
+    text-decoration: none;
+    color: rgb(255, 5, 5);
+    font-weight: bold;
+    border: 5px solid rgba(7, 7, 77, 0.103);
+    transition: background .3s ease;
+}
